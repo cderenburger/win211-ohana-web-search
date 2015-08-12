@@ -66,25 +66,58 @@ feedback_email:
 #     - text for link 2
 homepage_links:
   general:
-    Government Assistance:
-      - Health Insurance
-      - Medicare
-      - SFMNP (Food vouchers for seniors)
-      - SNAP (Food Stamps)
-      - 'WIC (Women, Infants, & Children)'
+    Health Education Programs:
+      - Chronic Disease Self Management
+      - Diabetes Prevention
+      - Diabetes Education and Support
 
-    Children, Teens, & Families:
-      - Abuse Prevention
-      - Child Care
-      - Counseling
-      - Mentoring Programs
-      - Youth Development
+    Emergent Needs:
+      - Free School Supplies
 
   emergency:
-    Emergency:
-      - Psychiatric Emergency
-      - Emergency Food
+    Food:
+      - Food Pantries
+      - Hot Meals
+      - WIC - Women, Infants & Children
+
+    Financial Assistance:
+      - Bus Tickets
+      - Gas Money
+      - Rent Payment Assistance
+      - Rental Deposit Assistance
+      - Electric Payment Assistance
+
+    Housing / Shelter:
       - Emergency Shelter
+      - Low Income Housing
+      - Transitional Housing
+      - Minor Home Repair
+
+    Material Goods:
+      - General Clothing Provision
+      - Diapers
+      - Furniture
+      - Household Goods
+
+    Health Care:
+      - General Dental Care
+      - General Medical Care
+
+    Legal:
+      - General Legal Assistance
+      - Landlord / Tenant Assistance
+
+    Financial Information & Education:
+      - Credit Counseling
+      - Debt Management
+
+    Employment:
+      - Employment Preparation
+
+    Mental Health and Substance Abuse:
+      - Crisis Intervention Hotlines
+      - Outpatient Substance Abuse Programs
+      - General Counseling Services
 
     Reporting:
       - Domestic Violence
