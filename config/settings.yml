@@ -66,25 +66,58 @@ feedback_email:
 #     - text for link 2
 homepage_links:
   general:
-    Government Assistance:
-      - Health Insurance
-      - Medicare
-      - SFMNP (Food vouchers for seniors)
-      - SNAP (Food Stamps)
-      - 'WIC (Women, Infants, & Children)'
+    Health Education Programs:
+      - Chronic Disease Self Management
+      - Diabetes Prevention
+      - Diabetes Education and Support
 
-    Children, Teens, & Families:
-      - Abuse Prevention
-      - Child Care
-      - Counseling
-      - Mentoring Programs
-      - Youth Development
+    Emergent Needs:
+      - Free School Supplies
 
   emergency:
-    Emergency:
-      - Psychiatric Emergency
-      - Emergency Food
+    Food:
+      - Food Pantries
+      - Hot Meals
+      - WIC / Women, Infants & Children
+
+    Financial Assistance:
+      - Bus Tickets
+      - Gas Money
+      - Rent Payment Assistance
+      - Rental Deposit Assistance
+      - Electric Service Payment Assistance
+
+    Housing / Shelter:
       - Emergency Shelter
+      - Low Income Housing
+      - Transitional Housing
+      - Minor Home Repair
+
+    Material Goods:
+      - General Clothing Provision
+      - Diapers
+      - Furniture
+      - Household Goods
+
+    Health Care:
+      - General Dental Care
+      - General Medical Care
+
+    Legal:
+      - General Legal Assistance
+      - Landlord / Tenant Assistance
+
+    Financial Information & Education:
+      - Credit Counseling
+      - Debt Management
+
+    Employment:
+      - Employment Preparation
+
+    Mental Health and Substance Abuse:
+      - Crisis Intervention Hotlines
+      - Outpatient Substance Abuse Programs
+      - General Counseling Services
 
     Reporting:
       - Domestic Violence
@@ -172,6 +205,9 @@ info_box_terms:
       - wic
       - 'women, infants, and children'
       - 'women, infants, & children'
+      - wic - women, infants and children
+      - wic - women, infants, and children
+      - wic - women, infants, & children
       - assistance for mothers
     title: 'Women, Infants, and Children'
     description:
@@ -206,6 +242,54 @@ info_box_terms:
       'SNAP offers nutrition assistance to millions of eligible,
       low-income individuals and families and provides economic benefits to communities.'
     url: http://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program-snap
+
+  cdsm:
+    synonyms:
+      - chronic disease self management
+      - cdsm
+      - living well
+      - hypertension
+    title: Chronic Disease Self Management
+    description:
+      'WIN211 has partnered with the Washington State Department of Health
+      to promote the Chronic Disease Self Management Program.
+      CDSMP workshops meet once a week for two and one half hours, over six consecutive weeks. Workshops are facilitated by two trained leaders, one or both of whom are non-health professionals with chronic diseases themselves. Workshops are highly interactive.
+
+      Topics include the following
+      * How to deal with frustration, fatigue, pain, and isolation.
+      * Ways to maintain and improve strength, flexibility, and endurance.
+      * Managing medications.
+      * How to communicate more effectively with family, friends, and health professionals.
+      * Healthy eating.'
+    url: https://www.ncoa.org/healthy-aging/chronic-disease/chronic-disease-self-management-program/#sthash.SfcWf0yG.dpuf
+
+  dpp:
+    synonyms:
+      - diabetes prevention
+      - diabetes prevention program
+      - dpp
+    title: Diabetes Prevention Program
+    description:
+      "Research studies have found that moderate weight loss and exercise can
+      prevent or delay type 2 diabetes among adults at high-risk of diabetes.
+      Find out more about the risk factors for type 2 diabetes, what it means
+      to have prediabetes, and what you can do to prevent or delay diabetes."
+    url: http://www.cdc.gov/diabetes/basics/prevention.html
+
+  des:
+    synonyms:
+       - diabetes education and support
+       - diabetes education & support
+       - diabetes education
+    title: Diabetes Education & Support
+    description:
+      "If you are living with diabetes or have a loved with the disease,
+      it's important to work together to manage diabetes to stay healthy and
+      prevent complications. Managing diabetes is not easy, but support from
+      family members can make it much easier. The NDEP has resources for
+      making healthy lifestyle choices that not only help people with diabetes
+      manage the disease, but also help keep the whole family healthy!"
+    url: http://www.ndep.nih.gov
 
 ###################################################################
 #
