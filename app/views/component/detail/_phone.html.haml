@@ -18,3 +18,8 @@
             = phone.extension
       - if show_phone_type_and_department == true
         = render 'component/detail/phone_type_and_department', phone: phone
+- if phone.phone_hours.present?
+  %span.schedules.regular-schedules.icon-text-block
+    %i.fa.fa-clock-o
+    %span
+      = phone.phone_hours
