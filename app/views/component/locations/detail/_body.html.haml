@@ -99,8 +99,8 @@
 
     %section.overview-box
       %section
-        = render 'component/detail/location_short_desc', location: @location
-        = render 'component/detail/location_description', location: @location
+        /= render 'component/detail/location_short_desc', location: @location
+        /= render 'component/detail/location_description', location: @location
 
     - if @location.coordinates.present? || @location.transportation.present?
       %section.map-box
