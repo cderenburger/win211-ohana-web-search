@@ -8,6 +8,7 @@
           = search_field_tag :keyword, params[:keyword], placeholder: t('placeholders.results_page_keyword_search'), tabindex: 1
 
       %section#search-options
+        = render 'component/search/county'
         = render 'component/search/location'
         = render 'component/search/agency'
 

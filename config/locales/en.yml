@@ -67,6 +67,7 @@ en:
     address_search: 'Address search'
     agency_search: 'Organization name search'
     homepage_search: 'I need...'
+    select_county: 'Select a county'
 
   location_fields:
     accessibility: 'Accessibility Options:'
@@ -95,6 +96,7 @@ en:
     agency_search: 'full or partial name...'
     homepage_keyword_search: 'what are you looking for?'
     results_page_keyword_search: 'search for...'
+    select_county: 'county selection'
 
   service_fields:
     accepted_payments: 'Payment Methods Accepted:'
