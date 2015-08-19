@@ -169,7 +169,6 @@
                     - service.phones.each do |phone|
                       = render 'component/detail/phone', phone: phone, show_phone_type_and_department: true
             = render 'component/detail/service_description', service: service
-            = render 'component/detail/service_fees', service: service
             = render 'component/detail/service_audience', service: service
             = render 'component/detail/service_eligibility', service: service
             = render 'component/detail/service_application_process', service: service
@@ -177,6 +176,7 @@
             = render 'component/detail/service_wait', service: service
             = render 'component/detail/service_required_documents', service: service
             = render 'component/detail/service_accepted_payments', service: service
+            = render 'component/detail/service_fees', service: service
             = render 'component/detail/service_service_areas', service: service
 
   / Detail footer content.
