@@ -77,8 +77,8 @@ homepage_links:
   emergency:
     Food:
       - Food Pantries
-      - Meals
-      - WIC / Women, Infants & Children
+      - Hot Meals | Meals
+      - WIC (Women, Infants & Children)
 
     Financial Assistance:
       - Bus Fare
@@ -89,7 +89,7 @@ homepage_links:
 
     Housing / Shelter:
       - Emergency Shelter
-      - Low Income Housing
+      - Low Income/Subsidized Rental Housing
       - Transitional Housing
       - General Minor Home Repair Programs
 
@@ -105,7 +105,7 @@ homepage_links:
 
     Legal:
       - General Legal Aid
-      - Landlord - Tenant Assistance
+      - Landlord/Tenant Assistance
 
     Financial Information & Education:
       - Credit Counseling
@@ -118,10 +118,6 @@ homepage_links:
       - Crisis Intervention Hotlines
       - Comprehensive Outpatient Substance Abuse Programs
       - General Counseling Services
-
-    Reporting:
-      - Domestic Violence
-      - Child Abuse
 
 ####################
 #

@@ -25,7 +25,7 @@ module HomepageLinksHelper
   # @param link_text [String] A link text from the bottom half of homepage.
   # @return [String]
   def keyword_from_link_text(link_text)
-    ['/', '('].each do |char|
+    ['('].each do |char|
       link_text = link_text.split(char).first.strip if link_text.include?(char)
     end
     link_text
