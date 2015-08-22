@@ -26,6 +26,34 @@
   }
 }
 
+.button-small-inv {
+  background: $button-small-inv-bg;
+  border: none;
+
+  font-family: $font_san_serif;
+  @include type-size(baseline);
+  @include rounded-except(none);
+  @include box-sizing(border-box);
+  padding: 4px 6px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: $button-small-inv-color;
+
+  .fa {
+    color: $button-small-inv-fa-color;
+  }
+}
+
+.button-small-inv:hover {
+  background: $button-small-inv-bg-hover;
+  border: 1px solid rgba($primary-darkest, 0.2);
+  color: $button-small-inv-hover-color;
+
+  .fa {
+    color: $button-small-inv-hover-color;
+  }
+}
+
 .button-small[disabled],
 .button-small[disabled]:hover {
   border:1px solid rgba(0, 0, 0, 0);
