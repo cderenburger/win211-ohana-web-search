@@ -1089,12 +1089,17 @@ body {
     margin-bottom: 0;
     margin-left: 20px;
     list-style-type: square;
+
     li {
       color: $main-list-mark-color; // IE fallback
       color: rgba($main-list-mark-color, .4);
+      display: inline-block;
       > span {
         color: $black;
       }
+    &:before {
+      content: '\25BA';
+    }
     }
   }
 
