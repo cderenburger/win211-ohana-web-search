@@ -12,25 +12,27 @@ $black: rgb(0,0,0);
 $greyscale_dark: rgb(87,87,87);
 $greyscale_midtone: rgb(128,128,128);
 $greyscale_light: rgb(171,171,171);
-$greyscale_lightest: rgb(252,252,252);
+$greyscale_lightest: rgb(248,248,248);
 
 $white: rgb(255,255,255);
 
 // Primary.
-$primary: rgb(137,209,226);
+$primary: rgb(107,159,247);
+$primary-transparent: rgba($primary, .8);
 $primary-dark: shade($primary, 25);
 $primary-darkest: shade($primary, 50);
 $primary-light: tint($primary, 25);
 $primary-lightest: tint($primary, 50);
 
 // Accents.
-$accentA-base: rgb(209,249,148);
+$accentA-base: rgb(248,196,107);
 $accentA-light: tint($accentA-base, 25);
 $accentA-dark: shade($accentA-base, 50);
 $accentB: rgb(255,200,56);
+$accentA-faint: tint($accentA-base, 90);
 
 // Complements.
-$complement-base: rgb(242,144,191);
+$complement-base: rgb(34,111,245);
 $complementA: shade($complement-base, 50);
 $complementB: tint($complement-base, 50);
 
@@ -119,11 +121,17 @@ $button-hover-bg:             shade($accentA-light,5);
 $button-disabled-color:       $greyscale_light;
 $button-disabled-bg:          tint($greyscale_light, 60);
 
-$button-small-color:         tint($black, 25);
+$button-small-color:         $white;
 $button-small-fa-color:      $primary-darkest;
-$button-small-hover-color:   $complementA;
+$button-small-hover-color:   $white;
 $button-small-bg:            none;
 $button-small-bg-hover:      $primary-light;
+
+$button-small-inv-color:         $black;
+$button-small-inv-fa-color:      $primary-darkest;
+$button-small-inv-hover-color:   $black;
+$button-small-inv-bg:            none;
+$button-small-inv-bg-hover:      $primary-light;
 
 $button-utility-color:       $complementA;
 $button-utility-fa-color:    $primary-darkest;
@@ -148,7 +156,7 @@ $search-text-color:                 tint($black, 25);
 $search-accent-color:               shade($primary, 50);
 $search-accent-hover:               $text-accent-hover-color;
 $search-button-color:               $complementA;
-$search-button-hover-color:         shade($complement-base, 25);
+$search-button-hover-color:         $black;
 $search-button-hover-background:    $primary-light;
 $search-button-fa-hover-color:      $complementA;
 
